@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-top: 2rem; */
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    border: 10px solid blue;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+     gap: 2rem;
+}
+
+
+.grid{
+    height: 400px;
+    width: 400px;
+    background-color: #dcd6bc;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.box{
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+    border:1px solid black ;
+    height: 40px;
+    width: 40px;
+    
+    
+
+}
+
+
+
+.checked {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #cecab7;
+    border-color: #9c998d;
+    /* box-sizing: border-box; */
+  }
+
+.valid .bomb{
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db
+}
+
+ .one {
+    color: #e76346;
+  }
+  
+  .two {
+    color: #4199d3;
+  }
+  
+  .three {
+    color: #57da59;
+  }
+  
+  .four{
+    color: #bb41d3;
+  }
+
+  .five{
+    color : navy
+  }
+
+  .six{
+    color :blueviolet
+  }
+
+  .seven{
+    color :crimson
+  }
+
+  .eight{
+    color: indigo;
+  }

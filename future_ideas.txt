@@ -1,0 +1,2 @@
+add a function where if all valid box are clicked you win
+add a function where it is impossible to lose on first click.
